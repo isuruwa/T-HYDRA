@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Colors
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+chmod +x configure
+echo -e "${YELLOW}Running configuration script...${NC}"
+./configure
+echo -e "${GREEN}Configuration completed successfully.${NC}"
+echo -e "${YELLOW}Compiling the source code...${NC}"
+make
+echo -e "${GREEN}Compilation completed successfully.${NC}"
+echo -e "${YELLOW}Downloading the Makefile...${NC}"
+wget https://raw.githubusercontent.com/isuruwa/RestrictedArea/main/Makefile -O Makefile
+echo -e "${GREEN}Makefile downloaded successfully.${NC}"
+chmod +x Makefile
+echo -e "${YELLOW}Installing the software...${NC}"
+make install
+echo -e "${GREEN}Installation completed successfully.${NC}"
