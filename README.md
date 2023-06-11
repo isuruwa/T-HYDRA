@@ -1,5 +1,4 @@
-![thydra](https://github.com/isuruwa/T-HYDRA/assets/72663288/50e65b2a-b708-41fd-b58f-8460565f99bf)
-
+![thydra](https://github.com/isuruwa/T-HYDRA/assets/72663288/b67b5919-f064-43e6-88a6-116adbf2457d)
 
 <br>
 <p align="center">
@@ -26,9 +25,7 @@
 * ./setup
 
 <p align="center">
-  
 <img src="https://img.icons8.com/emoji/200/000000/dragon-face.png"/>
-  
   
  ## SCREENSHOTS : 
   
