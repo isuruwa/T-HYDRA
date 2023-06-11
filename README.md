@@ -15,7 +15,7 @@
 ## Features :
 * Modified Directories 
 * Fix Some ssl connecting issues 
-* Autimated script ( Coming Soon ... )
+* Automated script ( Coming Soon ... )
 
 ## INSTALLTION :
 * apt update -y
